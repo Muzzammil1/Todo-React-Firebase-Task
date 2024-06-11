@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Todo-React-Firebase-Task/static/css/main.07d7a0a3.css",
-    "main.js": "/Todo-React-Firebase-Task/static/js/main.afe5a343.js",
+    "main.css": "/Todo-React-Firebase-Task/static/css/main.ee7c8832.css",
+    "main.js": "/Todo-React-Firebase-Task/static/js/main.a5e4adf8.js",
     "static/js/453.92117861.chunk.js": "/Todo-React-Firebase-Task/static/js/453.92117861.chunk.js",
     "index.html": "/Todo-React-Firebase-Task/index.html",
-    "main.07d7a0a3.css.map": "/Todo-React-Firebase-Task/static/css/main.07d7a0a3.css.map",
-    "main.afe5a343.js.map": "/Todo-React-Firebase-Task/static/js/main.afe5a343.js.map",
+    "main.ee7c8832.css.map": "/Todo-React-Firebase-Task/static/css/main.ee7c8832.css.map",
+    "main.a5e4adf8.js.map": "/Todo-React-Firebase-Task/static/js/main.a5e4adf8.js.map",
     "453.92117861.chunk.js.map": "/Todo-React-Firebase-Task/static/js/453.92117861.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d7a0a3.css",
-    "static/js/main.afe5a343.js"
+    "static/css/main.ee7c8832.css",
+    "static/js/main.a5e4adf8.js"
   ]
 }
