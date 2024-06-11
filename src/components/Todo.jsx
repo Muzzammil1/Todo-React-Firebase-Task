@@ -8,7 +8,8 @@ const style = {
   li: `flex justify-between bg-slate-200 p-4 my-2 capitalize`,
   liComplete: `flex justify-between bg-slate-400 p-4 my-2 capitalize`,
   row: `flex`,
-  text: `ml-2 cursor-pointer flex items-center`
+  text: `ml-2 cursor-pointer flex items-center`,
+  buttonContainer: `flex items-center space-x-2`
 }
 const Todo = ({ todo, toggleComplete, deleteTodo, editTodo }) => {
   const [editMode, setEditMode] = useState(false);
@@ -48,16 +49,18 @@ const Todo = ({ todo, toggleComplete, deleteTodo, editTodo }) => {
         )}
       </div>
 
+        <div className={style.buttonContainer}>
       {editMode ? (
         <button onClick={handleSave}>Save</button>
       ) : (
-        <button onClick={handleEdit}>
+        <button className='' onClick={handleEdit}>
           <AiOutlineEdit />
         </button>
       )}
       <button onClick={() => deleteTodo(todo.id)}>
         <FaRegTrashAlt />
       </button>
+      </div>
     </li>
   )
 }
